@@ -1,5 +1,132 @@
 <html>
-  <main>
-    <h1>hello world</h1>
-  </main>
+<main id="main" >
+  <h1 id="title" class="head">Nicolas Bourbaki</h1>
+  <p class="para">The greatest mathematician that never lived.</p>
+  <figure id="img-div">
+    <img id="image" src="https://d2r55xnwy6nx47.cloudfront.net/uploads/2020/11/Boubaki-2000_balcony.jpg" alt="A few of the founding members of the Bourbaki society having a good time." class="responsive-img">
+    <figcaption id="image-caption">A few of the founding members of the secretive math group Nicolas Bourbaki.</figcaption>
+  </figure>
+  <section id="tribute-info">
+    <h3 id="headline" class="head">Timeline of the group:</h3>
+    <ul>
+      <li>
+        <strong>1935</strong> The group was founded.
+      </li>
+      <li>
+        <strong>1940</strong> General Topology.
+      </li>
+     <li>
+        <strong>1942</strong> Algebra.
+      </li>
+        <li>
+        <strong>1949</strong> Functions of Real Algebra.
+      </li>
+     <li>
+       <strong>1952</strong> Integration.
+      </li>
+      <li>
+       <strong>1953</strong> Topological Vectro Spaces.
+      </li>
+      <li>
+       <strong>1954</strong> Theory of Sets.
+      </li>
+      <li>
+       <strong>1960</strong> Lie Groups and Lie Algebra.
+      </li>
+      <li>
+       <strong>1960</strong> Elements of the History of Mathematics.
+      </li>
+      <li>
+       <strong>1961</strong> Commutative Algebra.
+      </li>
+      <li>
+       <strong>1967</strong> Spectral Theory.
+      </li>
+      <li>
+       <strong>1967</strong> Differential and Analytic Manifold.
+      </li>
+      </ul>
+    <Blockquote cite="https://www.teambonding.com/power-of-communication/#:~:text=%E2%80%9CAlone%20we%20can%20do%20so,so%20much.%E2%80%9D%2D%20Helen%20Keller">
+      <p class="para">"Alone we can do so little, together we can do so much."</p>
+      <cite>--Helen Keller</cite>
+      </blockquote>
+      <h3>If you have time you should read further about the groups achievements
+      <a id="tribute-Link" href="https://en.wikipedia.org/wiki/Nicolas_Bourbaki" target="_blank">Wikipedia Entry</a>.
+        </h3
+    </section>
+</main>
+    <style>
+      
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat&display=swap');
+
+body {
+}
+#main
+{ 
+  background: rgba(55, 75, 55, 0.12);
+  display:block;
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 1px;
+  position: relative;
+  }
+ul
+{
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+li 
+{
+  margin: 16px 0;
+}
+.responsive-img
+{ 
+  margin: 0px auto 0px auto;
+  max-width: 75%;
+  height: auto;
+  border-radius: 15px;
+ }
+.head{
+  font-family: "Libre Baskerville", monospace;
+  text-align: center;
+ }
+
+.para{
+  font-family:"Montserrat", monospace;
+  text-align: center;}
+#img-div {
+  background: white;
+  padding-top: 2.5em;
+  border-radius: 10px;
+  text-align: center;
+ }
+#image-caption {
+  text-align: center;
+  line-height: 3;
+}
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+    #img-caption {
+    font-size: 1.4rem;
+  }
+}
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+h3{ text-align: center;}
+    </style>
 </html>
